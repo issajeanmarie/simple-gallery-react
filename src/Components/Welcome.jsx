@@ -18,7 +18,14 @@ function Welcome() {
 					<br />
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						The pictures are memories <br />
+						These are the most pictures in defferent categories. <br />
+						We have the <b>People</b>, <b>Animals</b>, <b>Technology</b>, <b>Beaty</b>, <b>Materials</b>, <b>Architecture</b>.. pictures. <br />
+						We hope you enjoy viewing the world. <br /><br /><br />
+
+						<b><i>Guidlines to use</i></b> <br />
+						1. Hover over the image to like it, if you are using computer. <br />
+						2. Click on the image to like it, if you are using mobile phone.
 					</p>
 					<br /><br />
 
