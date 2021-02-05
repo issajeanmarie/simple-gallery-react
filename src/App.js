@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './Components/Styles/Style.min.css';
+import Header from './Components/Header.jsx';
+import Welcome from './Components/Welcome.jsx';
+import TheData from './Components/TheData.jsx';
+import Footer from './Components/Footer.jsx';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+  return(
+    <React.Fragment>
+      <Header />
+      <Welcome />
+
+      <TheData categoryName = 'People' category = 'people' />
+      <TheData categoryName = 'Nature' category = 'nature' />
+      <TheData categoryName = 'Tech' category = 'tech' />
+      <TheData categoryName = 'Animal' category = 'animals' />
+      <TheData categoryName = 'Architecture' category = 'arch' />
+
+      <br /><br /><br />
+      <Footer />
+      
+    </React.Fragment>
+  )
 }
 
 export default App;
