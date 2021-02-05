@@ -7,4 +7,4 @@ eact-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/c
 __Just learn how it works__
 
 It has a single page to dislay data but displays the data many times based on the props.
-Images are taken from a [site Place Holder]{http://placeimg.com/}
+Images are taken from a {site Place Holder}[http://placeimg.com/]
